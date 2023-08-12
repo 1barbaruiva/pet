@@ -1,0 +1,146 @@
+@charset "UTF8";
+
+#conteiner{
+    width: 80%; /* diminui o tamanho para ver centralizado  */
+    margin: auto; /* centralizei a caixa principal */
+    padding: -1px;
+}
+
+#banner1{
+    width: 100%;
+    height: 400px;
+}
+.imgbanner1{
+    width: 100%;
+    height: 400px;
+}
+
+#topo{
+    width: 100%;
+    background-color: blue;
+    display: block;
+    float: center;
+}
+/* MENU */
+
+nav{
+    max-width: 100%;
+    height: 50px; ;
+    background-color: #00aab7;
+    padding-top: 05px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0px;
+    padding:0px;
+    
+}
+
+nav ul li{
+    float: left;
+    display:inline block;
+}
+
+nav ul li a {
+    padding: 15px;
+    text-decoration: none;
+    color :#ffff;
+    display:block;
+    text-align: center;
+
+}
+
+nav ul li a:hover{
+    background-color: #ffff;
+    transition: all.5s;
+    border-radius: 20px;
+    background-color: #ffb200;
+}
+
+/* Fim  */
+
+/* TABELA */
+
+table{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-family: Showcard Gothic;    
+    color: #00aab7;
+    font-weight: 200px;
+    font-size: 30px ;
+
+}
+td{
+    padding: 10px;
+}
+/* Fim */
+
+/* Destaques */
+
+#destaques{
+    width: 100%;
+    height: auto;
+    font-family:  Showcard Gothic;
+    font-size: 30px;
+    margin-top: -04%;
+    
+}
+
+.tamanhoProd{
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    color: #00aab7;
+    margin: 15px;
+}   
+
+#cont2{
+    font-size: 05px;
+    background-color:#00aab7;
+    padding-top: 50px;
+    align-items: center;
+   margin-top: 25px;
+}
+#cont3{
+    width: 100%;
+    color: #ffff;
+    background-color: #00aab7;
+   
+}
+
+.bandeiras{
+    width: 30%;
+    height: auto;
+    padding-left: 40px;
+    padding-top: - 10px;
+}
+
+.frete{
+    width: 100%;
+    height: 300px;
+    padding-top: 30px;
+}
+
+#rodape{
+        width: 100%;
+        height: 50px;
+        background-color: #00aab7;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffff;
+        text-align: center;
+        padding-top: 25px;
+        
+}
+
+#pag{
+    font-size:25px;
+    color:#00aab7;
+    font-family:Arial, Helvetica, sans-serif ;
+    padding-top: 25px;
+    padding-left: 15px;
+    font-weight: bold;
+}
